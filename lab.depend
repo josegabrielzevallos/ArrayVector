@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1477155625 source:c:\users\rossy\desktop\script pyrox\lab\arraypoint.cpp
+	"ArrayPoint.h"
+
+1477155565 source:c:\users\rossy\desktop\script pyrox\lab\main.cpp
+	"Point.h"
+	"ArrayPoint.h"
+	"Vector.h"
+	"VectorArray.h"
+
+1477147249 c:\users\rossy\desktop\script pyrox\lab\arraypoint.h
+	"Point.h"
+
+1477006608 c:\users\rossy\desktop\script pyrox\lab\point.h
+	<iostream>
+
+1477149201 source:c:\users\rossy\desktop\script pyrox\lab\point.cpp
+	"Point.h"
+
+1477151660 c:\users\rossy\desktop\script pyrox\lab\vector.h
+	"Point.h"
+
+1477151660 source:c:\users\rossy\desktop\script pyrox\lab\vector.cpp
+	"Vector.h"
+
+1477155744 source:c:\users\rossy\desktop\script pyrox\lab\vectorarray.cpp
+	"VectorArray.h"
+
+1477153785 c:\users\rossy\desktop\script pyrox\lab\vectorarray.h
+	"Vector.h"
+
