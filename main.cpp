@@ -1,7 +1,6 @@
 #include "Point.h"
 #include "ArrayPoint.h"
-#include "Vector.h"
-#include "VectorArray.h"
+
 
 int main()
 {
@@ -49,35 +48,8 @@ int main()
     temp.print();
 */
 
-/*
-    Point a =  Point(4,5);
-    Point b =  Point(5,4);
-    _vector t = _vector(Point(4,4),Point(7,7));
 
-
-    _vector y = t;
-    y.insertar1(a);
-    y.print();
-    t.print();
-*/
-
-
-    _vector *a = new _vector[2];
-    _vector t = _vector(Point(4,4),Point(7,7));
-    _vector tt = _vector(Point(2,4),Point(8,5));
-    _vector ttt = _vector(Point(20,0),Point(8.4,5));
-    a[0] =t;
-    a[1] =t;
-
-
-
-    VectorArray b(a,2,2);
-    b._push_back(tt);
-    b._insert(0, ttt);
-    b._remove(0);
-    b.print();
-    cout << b.getSize();
-
+   
 
     return 0;
 }
